@@ -4,244 +4,248 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ваш особистий психолог У Кривому Розі</title>
+    <link rel="stylesheet" href="/css/styles.min.css" />
   </head>
   <body>
-    <head>
-      <header class="header">
-        <div class="header__logo">
+    <div class="wrapper">
+      <head>
+        <header class="header container">
+          <div class="header__logo">
+            <a href="#">Logo</a>
+          </div>
+          <nav>
+            <ul class="header__list">
+              <li>Головна</li>
+              <li>Події</li>
+              <li>Контакти</li>
+              <li>Блог</li>
+            </ul>
+          </nav>
+        </header>
+      </head>
+      <main>
+        <section class="intro-section container">
+          <h1 class="intro-section__title">
+            Ваш особистий психолог У Кривому Розі
+          </h1>
+          <p class="intro-section__text">
+            Особисті, сімейні та групові консультації
+          </p>
+          <a class="intro-section__btn btn" href="#">Більше</a>
+        </section>
+        <section class="categories-section container">
+          <ul class="categories-section__list">
+            <li>
+              <img src="#" alt="#" />
+              <h4 class="categories-section__title">Особисті консультації</h4>
+              <p class="categories-section__text">
+                Досягнення поставленої мети буває складним завданням, але за
+                правильної підтримки немає нічого неможливого
+              </p>
+            </li>
+            <li>
+              <img src="#" alt="#" />
+              <h4 class="categories-section__title">Сімейна терапія</h4>
+              <p class="categories-section__text">
+                У будь-якої родини бувають кризові ситуації, тому в такі моменти
+                важливо підтримувати одне одного.
+              </p>
+            </li>
+            <li>
+              <img src="#" alt="#" />
+              <h4 class="categoriess-section__title">Сенситивні групи</h4>
+              <p class="categories-section__text">
+                Групові заняття — чудове місце, щоб навчитися спілкуватися з
+                оточуючими людьми та розкрити свій потенціал
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="about-section container">
+          <h3 class="about-section__title">Трохи про мене</h3>
+          <p class="about-section__text">
+            Далеко-далеко за словесними горами країни голосних і приголосних
+            живуть рибні тексти. Вдалині від усіх живуть вони в буквених
+            будинках на березі Семантика великого мовного океану. Маленький
+            струмок Даль дзюрчить по всій країні та забезпечує її всіма
+            необхідними правилами. Ця парадигматична країна, в якій смажені
+            члени речення залітають прямо.
+          </p>
+          <ul class="about-section__list">
+            <li><a href="#">Поставити питання</a></li>
+            <li><a href="#">Хочу консультацію</a></li>
+          </ul>
+        </section>
+        <section class="form-section container">
+          <h2 class="form-section__title">Записатися на консультацію</h2>
+          <form action="#">
+            <label for="">Ваше имʼя *<input type="text" /></label>
+            <label for="">Ваш телефон *<input type="tel" /></label>
+            <label for="">
+              <select name="" id="">
+                <option value="">Тема зустрічі *</option>
+                <option value="">Допомога</option>
+                <option value="">Консультація</option>
+                <option value="">Розмова</option>
+              </select>
+            </label>
+            <label for=""><textarea name="" id="">Побажання</textarea></label>
+            <label for="">
+              <input type="checkbox" />
+              Я згоден із політикою конфіденційності
+            </label>
+            <button type="submit">Відправити</button>
+          </form>
+        </section>
+        <section class="adventages-section container">
+          <ul class="adventages-section__list">
+            <li>
+              <p class="adventages-section__title">120 хв</p>
+              <h4>Тривалість консультации</h4>
+              <p class="adventages-section__text">
+                Оптимально для того, щоб знайти вихід та зробити черговий крок
+              </p>
+            </li>
+            <li>
+              <p class="adventages-section__title">від 500 грн</p>
+              <h4>Вартість</h4>
+              <p class="adventages-section__text">
+                Ціна доступна для будь-якої людини, яка потребує допомоги
+              </p>
+            </li>
+            <li>
+              <p class="adventages-section__title">250+</p>
+              <h4>Задоволених клієнтів</h4>
+              <p class="adventages-section__text">
+                Результат — улыбка на лице и ощущение счастья
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="reviews-section container">
+          <h2 class="reviews-section__title">Відгуки клієнтів</h2>
+          <div class="reviews-section__card">
+            <img class="reviews-section__img" src="#" alt="#" />
+            <h5 class="reviews-section__card--title">Марина, 25 лет</h5>
+            <p class="reviews-section__card--text">
+              Звернулася до Сергія, бо нерви вже були на межі. Ситуація
+              здавалася мені безвихідною – незважаючи на те, що я працюю і
+              навчаюсь. Сама не помітила, як позбулася величезної грудки.
+              Нарешті побачила вихід із ситуації, що склалася, і тепер є
+              надія... Велике спасибі Валентину.
+            </p>
+          </div>
+        </section>
+        <section class="articles-section container">
+          <h2 class="articles-section__title">Останні статті</h2>
+          <ul class="articles-section__list">
+            <li>
+              <img class="articles-section__img" src="#" alt="#" />
+              <h4 class="articles-section__list--title">
+                Жити, а не боятися: як впоратися з канцерофобією
+              </h4>
+            </li>
+            <li>
+              <img class="articles-section__img" src="#" alt="#" />
+              <h4 class="articles-section__list--title">
+                Брате мій, мій ворог: чому ворогують брати і сестри?
+              </h4>
+            </li>
+            <li>
+              <img class="articles-section__img" src="#" alt="#" />
+              <h4 class="articles-section__list--title">
+                8 порад, як залишатися продуктивним і не збожеволіти
+              </h4>
+            </li>
+          </ul>
+        </section>
+        <section class="questions-section container">
+          <h2 class="questions-section__title">Часті запитання</h2>
+          <ul class="questions-section__list">
+            <li>
+              <details class="questions-section__list--answer">
+                Я працюю, проводжу консультації з понеділка по суботу з 15:00 до
+                21:00. Записатися на прийом можна будь-якого дня з 9:00 до 21:00
+                <summary class="questions-section__list--title">
+                  Який у вас графік роботи?
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details class="questions-section__list--answer">
+                Сесія тривая дві години
+                <summary class="questions-section__list--title">
+                  Скільки триває сесія?
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details class="questions-section__list--answer">
+                Ціна консультації 500 гривень за годину
+                <summary class="questions-section__list--title">
+                  Скільки коштує консультація?
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details class="questions-section__list--answer">
+                Розмова з психологом
+                <summary class="questions-section__list--title">
+                  Що собою представляють консультації?
+                </summary>
+              </details>
+            </li>
+          </ul>
+        </section>
+        <section class="contacts-section">
+          <iframe
+            class="contacts-section__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4276.31268609267!2d30.627252328112046!3d50.40922826484326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5a83c700001%3A0x29d30adb2de3a585!2z0KbQtdC90YLRgNCw0LvRjNC90LjQuSDQvtGE0ZbRgQ!5e0!3m2!1sru!2sbg!4v1771526875122!5m2!1sru!2sbg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+          <div class="contacts-section__box">
+            <h2>Контакти</h2>
+            <ul class="contacts-section__list">
+              <li>Тел: +380 99 123 45 67</li>
+              <li>Telegram: @phyholog_sergei</li>
+              <li>Instagram: @phyholog_sergei</li>
+              <li>E-mail: phyholog_sergei@gmail.com</li>
+              <li>Адреса: Вул. Центральна буд. 10, офіс 1</li>
+            </ul>
+          </div>
+        </section>
+        <section class="feedback-section container">
+          <h2 class="feedback-section-title">Записатися зі знижкою 50 грн</h2>
+          <form action="#">
+            <label for="">Ваше имʼя *<input type="text" /></label>
+            <label for="">Ваш телефон *<input type="tel" /></label>
+            <button class="submit">Записатися зі знижкою</button>
+            <label for="">
+              <input type="checkbox" />
+              Я згоден із політикою конфіденційності
+            </label>
+          </form>
+        </section>
+      </main>
+      <footer class="footer container">
+        <div class="footer__logo">
           <a href="#">Logo</a>
         </div>
         <nav>
-          <ul class="header__list">
+          <ul class="footer__list">
             <li>Головна</li>
             <li>Події</li>
             <li>Контакти</li>
             <li>Блог</li>
           </ul>
         </nav>
-      </header>
-    </head>
-    <main>
-      <section class="intro-section">
-        <h1 class="intro-section__title">
-          Ваш особистий психолог У Кривому Розі
-        </h1>
-        <p class="intro-section__text">
-          Особисті, сімейні та групові консультації
-        </p>
-        <a class="intro-section__btn btn" href="#">Більше</a>
-      </section>
-      <section class="categories-section">
-        <ul class="categories-section__list">
-          <li>
-            <img src="#" alt="#" />
-            <h4 class="categories-section__title">Особисті консультації</h4>
-            <p class="categories-section__text">
-              Досягнення поставленої мети буває складним завданням, але за
-              правильної підтримки немає нічого неможливого
-            </p>
-          </li>
-          <li>
-            <img src="#" alt="#" />
-            <h4 class="categories-section__title">Сімейна терапія</h4>
-            <p class="categories-section__text">
-              У будь-якої родини бувають кризові ситуації, тому в такі моменти
-              важливо підтримувати одне одного.
-            </p>
-          </li>
-          <li>
-            <img src="#" alt="#" />
-            <h4 class="categoriess-section__title">Сенситивні групи</h4>
-            <p class="categories-section__text">
-              Групові заняття — чудове місце, щоб навчитися спілкуватися з
-              оточуючими людьми та розкрити свій потенціал
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="about-section">
-        <h3 class="about-section__title">Трохи про мене</h3>
-        <p class="about-section__text">
-          Далеко-далеко за словесними горами країни голосних і приголосних
-          живуть рибні тексти. Вдалині від усіх живуть вони в буквених будинках
-          на березі Семантика великого мовного океану. Маленький струмок Даль
-          дзюрчить по всій країні та забезпечує її всіма необхідними правилами.
-          Ця парадигматична країна, в якій смажені члени речення залітають
-          прямо.
-        </p>
-        <ul class="about-section__list">
-          <li><a href="#">Поставити питання</a></li>
-          <li><a href="#">Хочу консультацію</a></li>
-        </ul>
-      </section>
-      <section class="form-section">
-        <h2 class="form-section__title">Записатися на консультацію</h2>
-        <form action="#">
-          <label for="">Ваше имʼя *<input type="text" /></label>
-          <label for="">Ваш телефон *<input type="tel" /></label>
-          <label for="">
-            <select name="" id="">
-              <option value="">Тема зустрічі *</option>
-              <option value="">Допомога</option>
-              <option value="">Консультація</option>
-              <option value="">Розмова</option>
-            </select>
-          </label>
-          <label for=""><textarea name="" id="">Побажання</textarea></label>
-          <label for="">
-            <input type="checkbox" />
-            Я згоден із політикою конфіденційності
-          </label>
-          <button type="submit">Відправити</button>
-        </form>
-      </section>
-      <section class="adventages-section">
-        <ul class="adventages-section__list">
-          <li>
-            <p class="adventages-section__title">120 хв</p>
-            <h4>Тривалість консультации</h4>
-            <p class="adventages-section__text">
-              Оптимально для того, щоб знайти вихід та зробити черговий крок
-            </p>
-          </li>
-          <li>
-            <p class="adventages-section__title">від 500 грн</p>
-            <h4>Вартість</h4>
-            <p class="adventages-section__text">
-              Ціна доступна для будь-якої людини, яка потребує допомоги
-            </p>
-          </li>
-          <li>
-            <p class="adventages-section__title">250+</p>
-            <h4>Задоволених клієнтів</h4>
-            <p class="adventages-section__text">
-              Результат — улыбка на лице и ощущение счастья
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="reviews-section">
-        <h2 class="reviews-section__title">Відгуки клієнтів</h2>
-        <div class="reviews-section__card">
-          <img class="reviews-section__img" src="#" alt="#" />
-          <h5 class="reviews-section__card--title">Марина, 25 лет</h5>
-          <p class="reviews-section__card--text">
-            Звернулася до Сергія, бо нерви вже були на межі. Ситуація здавалася
-            мені безвихідною – незважаючи на те, що я працюю і навчаюсь. Сама не
-            помітила, як позбулася величезної грудки. Нарешті побачила вихід із
-            ситуації, що склалася, і тепер є надія... Велике спасибі Валентину.
-          </p>
-        </div>
-      </section>
-      <section class="articles-section">
-        <h2 class="articles-section__title">Останні статті</h2>
-        <ul class="articles-section__list">
-          <li>
-            <img class="articles-section__img" src="#" alt="#" />
-            <h4 class="articles-section__list--title">
-              Жити, а не боятися: як впоратися з канцерофобією
-            </h4>
-          </li>
-          <li>
-            <img class="articles-section__img" src="#" alt="#" />
-            <h4 class="articles-section__list--title">
-              Брате мій, мій ворог: чому ворогують брати і сестри?
-            </h4>
-          </li>
-          <li>
-            <img class="articles-section__img" src="#" alt="#" />
-            <h4 class="articles-section__list--title">
-              8 порад, як залишатися продуктивним і не збожеволіти
-            </h4>
-          </li>
-        </ul>
-      </section>
-      <section class="questions-section">
-        <h2 class="questions-section__title">Часті запитання</h2>
-        <ul class="questions-section__list">
-          <li>
-            <details class="questions-section__list--answer">
-              Я працюю, проводжу консультації з понеділка по суботу з 15:00 до
-              21:00. Записатися на прийом можна будь-якого дня з 9:00 до 21:00
-              <summary class="questions-section__list--title">
-                Який у вас графік роботи?
-              </summary>
-            </details>
-          </li>
-          <li>
-            <details class="questions-section__list--answer">
-              Сесія тривая дві години
-              <summary class="questions-section__list--title">
-                Скільки триває сесія?
-              </summary>
-            </details>
-          </li>
-          <li>
-            <details class="questions-section__list--answer">
-              Ціна консультації 500 гривень за годину
-              <summary class="questions-section__list--title">
-                Скільки коштує консультація?
-              </summary>
-            </details>
-          </li>
-          <li>
-            <details class="questions-section__list--answer">
-              Розмова з психологом
-              <summary class="questions-section__list--title">
-                Що собою представляють консультації?
-              </summary>
-            </details>
-          </li>
-        </ul>
-      </section>
-      <section class="contacts-section">
-        <iframe
-          class="contacts-section__map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4276.31268609267!2d30.627252328112046!3d50.40922826484326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5a83c700001%3A0x29d30adb2de3a585!2z0KbQtdC90YLRgNCw0LvRjNC90LjQuSDQvtGE0ZbRgQ!5e0!3m2!1sru!2sbg!4v1771526875122!5m2!1sru!2sbg"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-        <div class="contacts-section__box">
-          <h2>Контакти</h2>
-          <ul class="contacts-section__list">
-            <li>Тел: +380 99 123 45 67</li>
-            <li>Telegram: @phyholog_sergei</li>
-            <li>Instagram: @phyholog_sergei</li>
-            <li>E-mail: phyholog_sergei@gmail.com</li>
-            <li>Адреса: Вул. Центральна буд. 10, офіс 1</li>
-          </ul>
-        </div>
-      </section>
-      <section class="feedback-section">
-        <h2 class="feedback-section-title">Записатися зі знижкою 50 грн</h2>
-        <form action="#">
-          <label for="">Ваше имʼя *<input type="text" /></label>
-          <label for="">Ваш телефон *<input type="tel" /></label>
-          <button class="submit">Записатися зі знижкою</button>
-          <label for="">
-            <input type="checkbox" />
-            Я згоден із політикою конфіденційності
-          </label>
-        </form>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__logo">
-        <a href="#">Logo</a>
-      </div>
-      <nav>
-        <ul class="footer__list">
-          <li>Головна</li>
-          <li>Події</li>
-          <li>Контакти</li>
-          <li>Блог</li>
-        </ul>
-      </nav>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
