@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    padding-top: 30px;
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        gap: 16px;
+        font-size: $second-fz;
+        color: $base-scd-color;
+        font-weight: 700;
+    }
+}

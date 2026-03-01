@@ -2,6 +2,15 @@ html,
 body {
   height: 100%;
   margin: 0;
+  font: #{$base-fz}/#{$base-lh} #{$base-ff};
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
