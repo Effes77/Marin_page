@@ -7,6 +7,11 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
 }
 
 ul {
@@ -17,7 +22,7 @@ ul {
 	width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0 130px;
+    padding: 0 280px;
     box-sizing: border-box;
 }
 

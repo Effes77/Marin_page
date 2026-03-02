@@ -1,17 +1,44 @@
 .intro-section {
-    background: url(/src/img/Hero\ image.jpg);
-    background-size: cover;
+    background-color: #aaa9a4;
+    background: url("/src/img/Hero_image.jpg") center / cover no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    &__box {
+        padding: 241px 0 190px 0;
+          
+        color: $base-color;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
 
     &__title {
-        padding: 240px 0 50px 0;
         margin: 0;
         color: $base-color;
         font-size: $h1-fz;
+        line-height: 60px;
+        font-weight: 700;
+        font-family: $second-ff;
+        width: 416px; 
+        letter-spacing: 0;
     }
 
     &__text {
         font-size: $third-fz;
-        color: $base-color;
-        padding-bottom: 286px;
+        line-height: 36px;
+        width: 255px; 
+    }
+
+    &__btn {
+        display: block;
+        width: 250px;
+        height: 48px;
+        border-radius: 10px;
+        background-color: $second-color;
+        text-align: center;      
+        align-content: center;
+        font-size: $second-fz;
     }
 }
